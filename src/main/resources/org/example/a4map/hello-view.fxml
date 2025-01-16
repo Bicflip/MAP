@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="498.0" prefWidth="854.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ListView fx:id="ListaPacienti" layoutX="61.0" layoutY="49.0" prefHeight="200.0" prefWidth="200.0" />
+      <ListView fx:id="ListaProgramari" layoutX="327.0" layoutY="49.0" prefHeight="200.0" prefWidth="200.0" />
+      <Text layoutX="140.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pacienti" />
+      <Text layoutX="398.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Programari" />
+      <Button fx:id="CeleMaiAglomerateLuni" layoutX="96.0" layoutY="304.0" mnemonicParsing="false" text="Cele mai aglomerate luni ale anului" />
+      <Button fx:id="NumarProgramariPacient" layoutX="96.0" layoutY="336.0" mnemonicParsing="false" text="Numarul de programari pentru fiecare pacient" />
+      <Button fx:id="ZileTrecuteUltimaProg" layoutX="96.0" layoutY="370.0" mnemonicParsing="false" text="Numarul de zile trecute de la ultima programare a fiecarui pacient" />
+      <Button fx:id="NumarProgramariLuna" layoutX="96.0" layoutY="403.0" mnemonicParsing="false" text="Numarul total de programari pentru fiecare luna" />
+      <ListView fx:id="NewList" layoutX="575.0" layoutY="161.0" prefHeight="200.0" prefWidth="200.0" />
+   </children>
+</AnchorPane>
